@@ -1,0 +1,33 @@
+{
+  "name": "ui-library-daniil-beniash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniilBenyash/UI-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniilBenyash/UI-library/issues"
+  },
+  "homepage": "https://github.com/DaniilBenyash/UI-library#readme",
+  "dependencies": {"styled-components": "^6.1.8","react": "^18.2.0", "react-dom": "^18.2.0"},
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0", 
+    "react-dom": "^18.2.0"
+  },
+  "files": ["dist"]
+}
